@@ -3,9 +3,9 @@ name: Execução Diário do Robô
 on:
   schedule:
     - cron: '0 10 * * *'
-  workflow_dispath:
+  workflow_dispatch:
 
-jpbs:
+jobs:
   exeutar:
     runs-on: ubutu-latest
 
